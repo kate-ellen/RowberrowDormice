@@ -5,7 +5,9 @@ Page One Template
 https://templatemo.com/tm-504-page-one
 
 */
-
+body {
+    font-family: 'Open Sans', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
 body {
 	font-size: 21px;	
 	overflow-x: hidden;
@@ -266,3 +268,4 @@ p {
 		margin-bottom: 30px;
 	}
 }
+
