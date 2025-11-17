@@ -85,7 +85,7 @@ https://templatemo.com/tm-504-page-one
                 <div class="tm-page-content-width">
                     <div class="tm-translucent-white-bg tm-content-box tm-content-box-right tm-textbox-full-height">
                         <div class="tm-content-box-inner">
-                            <h2 class="tm-section-title tm-blue-text">Useful inks</h2>
+                            <h2 class="tm-section-title tm-blue-text">Useful Links</h2>
                             <p> <a href="https://ptes.org/get-informed/facts-figures/hazel-common-dormouse-muscardinus-avellanarius/">About the Hazel Dormouse</a><br><br>
                                 <a href="https://ptes.org/campaigns/dormice/surveying-and-monitoring-hazel-dormice/national-dormouse-monitoring-programme-ndmp/">About the National Dormouse Monitoring Programme</a><br><br>
                                 <a href="https://ptes.org/wp-content/uploads/2025/05/NDMP-2025.pdf">National Dormouse Monitoring Programme Guidelines</a><br><br>
@@ -181,7 +181,14 @@ https://templatemo.com/tm-504-page-one
                         <p>Suspendisse commodo, quam eget viverra ultrices, est erat condimentum est, in elementum diam erat ut lacus. Donec ornare massa quis metus bibendum aliquet.</p>
                         
                         <!-- contact form -->
-                        <form action="index.html" method="post" class="tm-contact-form">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                          <input type="hidden" name="access_key" value="f1913b0a-6132-4e26-9d67-a64f8368dcb4">
+                          <input type="text" name="name" required>
+                          <input type="email" name="email" required>
+                          <textarea name="message" required></textarea>
+                          <button type="submit">Submit</button>
+                        </form>
+                        <!--<form action="index.html" method="post" class="tm-contact-form">
                             <div class="form-group">
                                 <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
                             </div>
@@ -192,7 +199,7 @@ https://templatemo.com/tm-504-page-one
                                 <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Message" required></textarea>
                             </div>
                             <button type="submit" class="tm-btn">Submit</button>
-                        </form>  
+                        </form>  -->
                     </div>
                 </div>
                 <div class="tm-copyright-div">
@@ -304,6 +311,7 @@ https://templatemo.com/tm-504-page-one
 </body>
 
 </html>
+
 
 
 
